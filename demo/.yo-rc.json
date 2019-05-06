@@ -4,7 +4,7 @@
       "packageName": "fr.delbrayelle.demo",
       "nativeLanguage": "en"
     },
-    "jhipsterVersion": "5.8.2",
+    "jhipsterVersion": "6.0.0",
     "applicationType": "monolith",
     "baseName": "demo",
     "packageName": "fr.delbrayelle.demo",
@@ -24,7 +24,7 @@
     "enableSwaggerCodegen": false,
     "jwtSecretKey": "ZjUzZTAxY2I5ODc3MjAxMmZhZGQxNDE1ZmUxYWQwYjE3MjVjZGZmZmVjMmE1ZDg1M2JiNjdjMGExNTJmMTBlNGFjOTc4MDk5NzAwMDNiOWZiN2YxYzA0MDdiOGNjNjNmZjY2NDAzNjZjNDUzNmM5MGJmYTk0NmU2ZTJkN2NhMTk=",
     "clientFramework": "angularX",
-    "useSass": false,
+    "useSass": true,
     "clientPackageManager": "npm",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
@@ -36,6 +36,7 @@
     "languages": [
       "en",
       "fr"
-    ]
+    ],
+    "clientTheme": "none"
   }
 }
