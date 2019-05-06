@@ -5,10 +5,10 @@ import { DemoAppModule } from './app.module';
 ProdConfig();
 
 if (module['hot']) {
-    module['hot'].accept();
+  module['hot'].accept();
 }
 
 platformBrowserDynamic()
-    .bootstrapModule(DemoAppModule, { preserveWhitespaces: true })
-    .then(success => console.log(`Application started`))
-    .catch(err => console.error(err));
+  .bootstrapModule(DemoAppModule, { preserveWhitespaces: true })
+  .then(success => console.log(`Application started`))
+  .catch(err => console.error(err));
