@@ -1,0 +1,41 @@
+entity Study {
+	nid String required,
+    country Country,
+    organism Organism,
+    studyType StudyType
+}
+
+enum StudyType {
+	KYC, KYI
+}
+
+entity StudyVersion {
+	name String,
+    creationDate Instant,
+    updateDate Instant
+}
+
+entity Country {
+	countryName String
+}
+
+entity Organism {
+	organismName String
+}
+
+relationship OneToMany {
+	Study{versions} to StudyVersion
+}
+
+relationship OneToMany {
+	User{countries} to Country
+}
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Organism
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

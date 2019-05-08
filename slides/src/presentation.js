@@ -190,7 +190,7 @@ export default class Presentation extends React.Component {
           </Heading>
           <List>
             <ListItem margin="60px 0 0">JHipster Conf 2 à Paris le 27 juin 2019</ListItem>
-            <ListItem margin="30px 0 0">Contribuez ! https://github.com/jhipster/generator-jhipster</ListItem>
+            <ListItem margin="30px 0 0">Contribuez ! https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md</ListItem>
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="secondary">
