@@ -28,7 +28,7 @@ Les supports peuvent être librement modifiés et réutilisés. Les slides ont �
 - Présenter la possibilité de générer un livrable WAR ou JAR
 - Vérifier l'absence de Dockerfile : `ls src/main/docker` (depuis JHipster 6 avec l'utilisation de [Jib](https://github.com/GoogleContainerTools/jib))
 - Utiliser Sonar : `docker-compose -f src/main/docker/sonar.yml up` puis `./mvnw sonar:sonar -Dsonar.host.url=http://localhost:9001` et `gio open http://localhost:9001`
-- Générer une image Docker : `./mvnw -Pprod verify jib:dockerBuild`
+- Générer une image Docker : `./mvnw -Pprod verify jib:dockerBuild` (démon local Docker) ou `./mvnw -Pprod verify jib:build` (avec Docker Hub)
 - Utiliser Kubernetes : `cd .. && mkdir k8s && cd k8s && jhipster kubernetes` puis suivre les instructions listées à l'écran
 - Déployer sur Heroku : `heroku login` puis `jhipster heroku` et `heroku logs` ...mais aussi sur Google Cloud Platform, non montré dans la démo :(
 - Présenter les possibilités offertes pour les microservices
