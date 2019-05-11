@@ -26,9 +26,10 @@ Les supports peuvent être librement modifiés et réutilisés. Les slides ont �
 - Constater que Java 11 est compatible avec JHipster 6 : mettre "11" en valeur pour `java.version` à 11 dans le `pom.xml` à la racine puis lancer un `./mvnw`
 - Présenter quelques fichiers de configuration : `ls src/main/resources` (configuration générale par environnement, Liquibase...)
 - Présenter la possibilité de générer un livrable WAR ou JAR
-- Vérifier la présence du dossier de configuration pour Docker avec un Dockerfile : `ls src/main/docker`
+- Vérifier la présence du dossier de configuration pour Docker avec un Dockerfile : `ls src/main/docker` (avant JHipster 6)
+- Utiliser Sonar : `docker-compose -f src/main/docker/sonar.yml up` puis `./mvnw sonar:sonar -Dsonar.host.url=http://localhost:9001` et `gio open http://localhost:9000`
 - Générer une image Docker : `./mvnw -Pprod verify jib:dockerBuild`
-- Utiliser docker-compose : `cd .. && mkdir docker-compose && cd docker-compose && jhipster docker-compose` puis `docker-compose up`
 - Utiliser Kubernetes : `cd .. && mkdir k8s && cd k8s && jhipster kubernetes` puis suivre les instructions listées à l'écran
 - Déployer sur Heroku : `heroku login` puis `jhipster heroku` et `heroku logs` ...mais aussi sur Google Cloud Platform, non montré dans la démo :(
 - Présenter les possibilités offertes pour les microservices
+- Utiliser docker-compose : `cd .. && mkdir docker-compose && cd docker-compose && jhipster docker-compose` puis `docker-compose up`
