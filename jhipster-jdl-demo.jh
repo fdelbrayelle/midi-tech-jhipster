@@ -1,10 +1,3 @@
-entity Study {
-	nid String required,
-    country Country,
-    organism Organism,
-    studyType StudyType
-}
-
 enum StudyType {
 	KYC, KYI
 }
@@ -23,12 +16,18 @@ entity Organism {
 	organismName String
 }
 
+entity Study {
+	nid String required,
+    studyType StudyType
+}
+
 relationship OneToMany {
 	Study{versions} to StudyVersion
 }
 
-relationship OneToMany {
-	User{countries} to Country
+relationship OneToOne {
+	Study{country} to Country
+    Study{organism} to Organism
 }
 
 // Use Data Transfert Objects (DTO)

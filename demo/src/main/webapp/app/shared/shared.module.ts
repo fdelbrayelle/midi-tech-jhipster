@@ -1,17 +1,17 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { DemoSharedLibsModule, DemoSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective } from './';
+import { JhipsterdemoSharedLibsModule, JhipsterdemoSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective } from './';
 
 @NgModule({
-  imports: [DemoSharedLibsModule, DemoSharedCommonModule],
+  imports: [JhipsterdemoSharedLibsModule, JhipsterdemoSharedCommonModule],
   declarations: [JhiLoginModalComponent, HasAnyAuthorityDirective],
   entryComponents: [JhiLoginModalComponent],
-  exports: [DemoSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective],
+  exports: [JhipsterdemoSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class DemoSharedModule {
+export class JhipsterdemoSharedModule {
   static forRoot() {
     return {
-      ngModule: DemoSharedModule
+      ngModule: JhipsterdemoSharedModule
     };
   }
 }

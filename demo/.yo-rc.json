@@ -1,14 +1,14 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "fr.delbrayelle.jhipster.demo",
+      "packageName": "world.gfi.jhipsterdemo",
       "nativeLanguage": "en"
     },
-    "jhipsterVersion": "6.0.0",
+    "jhipsterVersion": "6.0.1",
     "applicationType": "monolith",
-    "baseName": "demo",
-    "packageName": "fr.delbrayelle.jhipster.demo",
-    "packageFolder": "fr/delbrayelle/jhipster/demo",
+    "baseName": "jhipsterdemo",
+    "packageName": "world.gfi.jhipsterdemo",
+    "packageFolder": "world/gfi/jhipsterdemo",
     "serverPort": "8080",
     "authenticationType": "jwt",
     "cacheProvider": "ehcache",
@@ -22,7 +22,7 @@
     "serviceDiscoveryType": false,
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "ZDAxMTZlMTM1NTljOThiZTZjZmE0NTE3ZTBiODQ1OTA2N2RjNjcyZjRkZWI1NmFkYjMwMWYyNzE2ZjkzZmI5MTYwYjIxZDk5Njk3OTg0YjIxOTk1ZGUzNDViMjVkYWQ0NzlmODQwZGQ2YzUzN2JhOTdhZTY4N2QyZTBhMWZkMzQ=",
+    "jwtSecretKey": "YmJlMzE4ODA5YTQ3ZjYxYzRiY2NkMzQxYjQzMTJkZWE0NDA1MzBlNDA5NGI3NjU0MDZlZGM2NzE0MzgzOWE0YTM0NjZhNzM0OGRkMzEyZTg0YTdlZWQ3ODk2MDdlNGU1OTNkODVhMWFmZTg3ZDgwNjRkMTA5ZGUzZTc3MDhjMzI=",
     "clientFramework": "angularX",
     "clientTheme": "none",
     "clientThemeVariant": "",
