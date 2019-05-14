@@ -22,7 +22,7 @@
     "serviceDiscoveryType": false,
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "YmJlMzE4ODA5YTQ3ZjYxYzRiY2NkMzQxYjQzMTJkZWE0NDA1MzBlNDA5NGI3NjU0MDZlZGM2NzE0MzgzOWE0YTM0NjZhNzM0OGRkMzEyZTg0YTdlZWQ3ODk2MDdlNGU1OTNkODVhMWFmZTg3ZDgwNjRkMTA5ZGUzZTc3MDhjMzI=",
+    "jwtSecretKey": "ODczOTdmMWRiZTZlMzM0NzQwYTBmMGNlNzQwOGRjYWVkYmE0ZmNjZTlhODQ3ZGFiYzNjZGRlYjNiYjIxNTQzYWIzNjIxMGNlYzk4YWU3OTBlYzU1N2YxNzZjZTU2MTg1N2MzYzA5Y2Y2NzNhNGE3NzA2NDIzMjA3MTI4OGJiYjk=",
     "clientFramework": "angularX",
     "clientTheme": "none",
     "clientThemeVariant": "",
@@ -35,6 +35,6 @@
     "otherModules": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr", "es"]
   }
 }

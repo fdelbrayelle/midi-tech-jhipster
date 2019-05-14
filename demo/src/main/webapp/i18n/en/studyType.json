@@ -1,9 +1,0 @@
-{
-  "jhipsterdemoApp": {
-    "StudyType": {
-      "null": "",
-      "KYC": "KYC",
-      "KYI": "KYI"
-    }
-  }
-}
