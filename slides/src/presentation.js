@@ -77,8 +77,8 @@ export default class Presentation extends React.Component {
             Qu'est-ce que c'est ?
           </Heading>
           <List>
-            <ListItem margin="30px 0 0">JHipster = Java Hipster</ListItem>
-            <ListItem margin="60px 0 0">Projet libre et open-source (licence Apache)</ListItem>
+            <ListItem margin="60px 0 0">JHipster = Java Hipster</ListItem>
+            <ListItem margin="30px 0 0">Projet libre et open-source (licence Apache)</ListItem>
             <ListItem margin="30px 0 0">Générateur d'applications web modernes</ListItem>
           </List>
         </Slide>
